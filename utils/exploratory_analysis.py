@@ -61,7 +61,7 @@ def visualize_single_slice_of_3d_volume_of_nifti_file(filepath, frame_idx=0):
     else:
         print(f"Formato non supportato: {os.path.basename(filepath)}")
 
-def visualize_nifti_all_frames_in_a_4d_file(filepath):
+def visualize_static_nifti_all_frames_in_a_4d_file(filepath):
 
     """Se il file è 4D, stampa tutti i frame del volume 4D."""
     img = nib.load(filepath)
@@ -99,7 +99,6 @@ def visualize_nifti_slices(filepath):
 
     widgets.interact(show_slice, slice_idx=widgets.IntSlider(min=0, max=max_slice, step=1, value=max_slice // 2))
 
-
 def visualize_nifti_3d(filepath):
     """Visualizza un volume NIfTI in 3D con Plotly."""
     img = nib.load(filepath)
@@ -121,5 +120,6 @@ def visualize_nifti_3d(filepath):
     fig.show()
 
     
-path="ACDC/database/testing/patient101"
+
+path="database/training/patient001"
 analyze_nifti_in_a_folder(path)
