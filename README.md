@@ -15,7 +15,9 @@ Quindi, prepara il tuo set di dati, carica i file .nii e fai partire la magia! �
 
 # Aggiornamento cari miei lettori! 
 
-- 4/02/2025 ore 19.00 ( è vero che stavo in dipartimento a quest'ora. Anche se non ci crederete è così )
+4/02/2025 ore 19.00 ( è vero che stavo in dipartimento a quest'ora. Anche se non ci crederete è così )
+
+
 Car* Nicola, Marianna, Tommaso e car* tutt*,
 
 Il fisico AranCi012 ha finalmente fatto girare lo script. Siccome però è povero, su colab la gpu si paga. Quindi ho fatto girare tutto su recas che è gratis. Non vedrete i risultati in maniera interattiva sul file notebook ma vi mando gli screenshot allegati.
